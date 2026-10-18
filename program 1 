@@ -14,3 +14,7 @@ int main() {
 
     return 0;
 }
+
+Output:
+Enter 5 elements: 10 20 30 40 50
+Array elements: 10 20 30 40 50
