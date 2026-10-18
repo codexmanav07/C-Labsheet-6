@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a[] = {2, 4, 2, 5, 2, 7};
+    int key = 2, count = 0;
+
+    for (int i = 0; i < 6; i++)
+        if (a[i] == key)
+            count++;
+
+    cout << "Occurrences = " << count;
+    return 0;
+}
+
+Output:
+Occurrences = 3
